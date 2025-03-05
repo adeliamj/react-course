@@ -3,7 +3,7 @@ import { Client, Databases, ID, Query } from 'appwrite' // Mengimpor kelas-kelas
 // Mendapatkan nilai project ID, database ID, dan collection ID dari variabel lingkungan (environment variables)
 const PROJECT_ID = import.meta.env.VITE_APPWRITE_PROJECT_ID;
 const DATABASE_ID = import.meta.env.VITE_APPWRITE_DATABASE_ID;
-const COLLECTION_ID = import.meta.env.VITE_APPWRITE_COLLECTION_ID;
+const COLLECTION_ID = import.meta.env.VITE_APPWRITE_COLLECTION_ID; 
 
 // Membuat objek client untuk menghubungkan ke server Appwrite dan mengatur endpoint serta project ID
 const client = new Client() 
