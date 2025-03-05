@@ -3,7 +3,7 @@ import Search from './components/Search.jsx' // Mengimpor komponen Search
 import Spinner from './components/Spinner.jsx' // Mengimpor komponen Spinner untuk indikator loading
 import MovieCard from './components/MovieCard.jsx' // Mengimpor komponen MovieCard untuk menampilkan film
 import { useDebounce } from 'react-use' // Mengimpor useDebounce untuk mengurangi frekuensi pencarian API
-import { getTrendingMovies, updateSearchCount } from "./appwrite.js"; // Mengimpor fungsi untuk mendapatkan dan memperbarui data film
+import { getTrendingMovies, updateSearchCount } from "./AppWrite.js"; // Mengimpor fungsi untuk mendapatkan dan memperbarui data film
 
 // URL dasar API TMDB
 const API_BASE_URL = 'https://api.themoviedb.org/3';
