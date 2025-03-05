@@ -20,7 +20,7 @@ const API_OPTIONS = {
   }
 }
 
-// KOMPONEN UTAMA
+// COMPONENT UTAMA
 const App = () => {
   const [debouncedSearchTerm, setDebouncedSearchTerm] = useState('') // State untuk menyimpan istilah pencarian setelah debounce
   const [searchTerm, setSearchTerm] = useState(''); // State untuk istilah pencarian yang dimasukkan pengguna
